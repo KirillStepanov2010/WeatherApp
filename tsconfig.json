@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "strict": true, // Включает все strict-настройки
+    "noImplicitAny": true, // Запрещает неявный any
+    "strictNullChecks": true, // Строгая проверка null/undefined
+    "strictFunctionTypes": true, // Строгая проверка типов функций
+    "strictBindCallApply": true, // Проверка bind/call/apply
+    "strictPropertyInitialization": true, // Обязательная инициализация полей класса
+    "noImplicitThis": true, // Запрещает неявный this: any
+    "alwaysStrict": true // Использование "use strict" в .ts файлах
+  }
+}
