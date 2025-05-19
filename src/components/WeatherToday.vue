@@ -115,7 +115,8 @@ const handleLogout = () => {
                 </div>
                 <div class="ml-3">
                   <p class="text-sm text-red-700">
-                    Ошибка при загрузке данных: {{ error?.message }}
+                    Ошибка при загрузке данных, проверьте правильно ли введен
+                    город
                   </p>
                 </div>
               </div>
