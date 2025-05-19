@@ -17,6 +17,10 @@ const handleLogout = () => {
   logout()
   router.push("/login")
 }
+
+if (isError) {
+  console.error(error)
+}
 </script>
 
 <template>
