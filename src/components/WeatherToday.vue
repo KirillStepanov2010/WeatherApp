@@ -15,9 +15,7 @@ const router = useRouter()
 
 const handleLogout = () => {
   logout()
-  router.push("/login").then(() => {
-    window.location.reload() // Форсируем полный сброс состояния
-  })
+  router.push("/login")
 }
 </script>
 
